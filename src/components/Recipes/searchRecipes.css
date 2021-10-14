@@ -1,0 +1,24 @@
+.search-form {
+    margin: 1rem;
+}
+
+#form-button {
+    margin: .5rem;
+}
+
+.search-bar-container {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background-color: rgb(255,255,255,.75);
+    z-index: 1;
+}
+
+.results-container {
+    margin-bottom: 10rem;
+}
+
+#pagination-btns {
+    justify-content: center;
+    position: relative;
+}
