@@ -12,13 +12,33 @@
     width: 100vw;
     background-color: rgb(255,255,255,.75);
     z-index: 1;
-}
-
-.results-container {
-    margin-bottom: 10rem;
+    padding: 0 1.5rem;
 }
 
 #pagination-btns {
     justify-content: center;
     position: relative;
+}
+
+.results-container {
+    margin-bottom: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.recipe-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: .5rem;
+    width: 350px;
+    background: rgb(255,255,255,.85);
+    margin: .5rem;
+    border-radius: 10px;
+}
+
+.recipe-item img {
+    border-radius: 10px 10px 0 0;
 }

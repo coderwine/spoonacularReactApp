@@ -5,9 +5,14 @@ body {
 
 .App {
   text-align: center;
+  background-image: url('./assets/main-backdrop.jpg');
+  background-repeat: no-repeat;
+  /* color: whitesmoke; */
+  background-size: cover;
 }
 
 .sitebar {
   position: fixed;
   top: 0;
 }
+
